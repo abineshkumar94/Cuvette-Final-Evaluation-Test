@@ -1,0 +1,459 @@
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 3;
+}
+
+.addStoriesContainer {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: 60vh;
+  border-radius: 12px;
+  background-color: #ffffff;
+  z-index: 3;
+  border-radius: 20px;
+}
+
+.info {
+  color: grey;
+  position: relative;
+  left: 70%;
+  top: 20px;
+}
+.closeBtn {
+  position: relative;
+  left: 93%;
+  top: 10px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  padding: initial;
+  cursor: pointer;
+  border-radius: 2px;
+  border: none;
+  font-size: large;
+  color: red;
+  border-radius: 10px;
+}
+
+.slideContainer {
+  width: 90%;
+  height: 7vh;
+  position: relative;
+  left: 5%;
+  top: 30px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide {
+  position: relative;
+  width: 20%;
+  height: 100%;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.slideBtn {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border-radius: 15px;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btnBorder {
+  border: 1px solid red;
+}
+
+.slideCloseBtn {
+  position: relative;
+  top: -10px;
+  left: 20%;
+  width: 15px;
+  padding: initial;
+  height: 15px;
+  text-align: center;
+  padding: initial;
+  cursor: pointer;
+  border-radius: 2px;
+  border: none;
+  font-size: small;
+  color: red;
+  border: 1px solid red;
+  border-radius: 10px;
+}
+
+.addBtn {
+  width: 10%;
+  height: 100%;
+  background-color: white;
+  border-radius: 15px;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.formContainer {
+  display: block;
+  width: 80%;
+  height: 60%;
+  position: relative;
+  top: 35px;
+  left: -10px;
+  margin: 0 auto;
+}
+
+.filedContainer {
+  display: flex;
+  gap: 50px;
+  width: 100%;
+  height: 20%;
+  margin-top: 10px;
+}
+
+.input {
+  border: 1px solid black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.align {
+  position: relative;
+  left: 5%;
+  width: 70%;
+  font-weight: 600;
+  color: black;
+  font-size: 1rem;
+}
+
+.alignHeading {
+  position: relative;
+  left: 8%;
+  width: 70%;
+  font-weight: 600;
+  color: black;
+  font-size: 1rem;
+}
+
+.alignCategory {
+  position: relative;
+  left: 4%;
+  width: 70%;
+  font-weight: 600;
+  color: black;
+  font-size: 1rem;
+}
+
+.alignDescription {
+  width: 70%;
+  font-weight: 600;
+  color: black;
+  font-size: 1rem;
+  position: relative;
+  left: 1.5%;
+}
+
+.alignImage {
+  position: relative;
+  left: 7%;
+  width: 70%;
+  font-weight: 600;
+  color: black;
+  font-size: 1rem;
+}
+
+/* Button */
+
+.btnContainer {
+  /* border: 1px solid red; styles*/
+  width: 90%;
+  height: 50px;
+  position: relative;
+  top: 10%;
+  left: 5%;
+  margin: 0 auto;
+  display: flex;
+  gap: 1rem;
+}
+
+.previousBtn {
+  background-color: #7eff73;
+  color: white;
+  border: none;
+  width: 100px;
+  height: 40px;
+  border-radius: 25px;
+  position: relative;
+  left: 20px;
+  font-size: large;
+}
+
+.nextBtn {
+  background-color: #73abff;
+  color: white;
+  border: none;
+  width: 100px;
+  height: 40px;
+  border-radius: 25px;
+  position: relative;
+  left: 20px;
+  font-size: large;
+}
+
+.postBtn {
+  background-color: #ff7373;
+  color: white;
+  border: none;
+  width: 100px;
+  height: 40px;
+  border-radius: 25px;
+  position: relative;
+  margin-left: 40%;
+  font-size: large;
+}
+
+@media only screen and (max-width: 1250px) {
+  .alignHeading {
+    position: relative;
+    left: 9%;
+    width: 70%;
+    font-weight: 600;
+    color: black;
+    font-size: 1rem;
+  }
+
+  .alignCategory {
+    position: relative;
+    left: 4%;
+    width: 70%;
+    font-weight: 600;
+    color: black;
+    font-size: 1rem;
+  }
+
+  .alignDescription {
+    width: 70%;
+    font-weight: 600;
+    color: black;
+    font-size: 1rem;
+    position: relative;
+    left: 1px;
+  }
+
+  .alignImage {
+    position: relative;
+    left: 8.5%;
+    width: 70%;
+    font-weight: 600;
+    color: black;
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .addStoriesContainer {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background-color: #ffffff;
+    z-index: 3;
+  }
+
+  .closeBtn {
+    position: relative;
+    left: 80%;
+    top: 10px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    padding: initial;
+    cursor: pointer;
+    border-radius: 2px;
+    border: none;
+    font-size: large;
+    color: red;
+    border-radius: 10px;
+  }
+
+  .info {
+    color: grey;
+    position: relative;
+    left: 25%;
+    top: 10px;
+  }
+
+
+  .slideContainer {
+    width: 20%;
+    height: 80vh;
+    position: relative;
+    left: -20px;
+    top: 30px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    position: flex;
+    flex-direction: column;
+  }
+
+  .formContainer {
+    display: block;
+    width: 80%;
+    height: 60%;
+    position: relative;
+    top: -65%;
+    left: 50px;
+    margin: 0 auto;
+  }
+
+  .slide {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    border-radius: 15px;
+  }
+
+  .slideCloseBtn {
+    position: relative;
+    top: 10px;
+    left: 20%;
+    width: 15px;
+    padding: initial;
+    height: 15px;
+    text-align: center;
+    padding: initial;
+    cursor: pointer;
+    border-radius: 2px;
+    border: none;
+    font-size: small;
+    color: red;
+    border: 1px solid red;
+    border-radius: 10px;
+  }
+
+  .align {
+    position: relative;
+    left: -37%;
+    top: 50%;
+    width: 90%;
+    height: 5vh;
+    font-weight: 600;
+    color: black;
+    font-size: 1rem;
+  }
+
+  .slideBtn {
+    width: 100%;
+    height: 70%;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .alignHeading {
+    position: relative;
+    left: -40%;
+    top: 50%;
+    width: 90%;
+    height: 5vh;
+    font-weight: 600;
+    color: black;
+    font-size: 1rem;
+  }
+
+  .alignCategory {
+    position: relative;
+    left: -38%;
+    top: 50%;
+    width: 90%;
+    height: 5vh;
+    width: 70%;
+    font-weight: 600;
+    color: black;
+    font-size: 1rem;
+  }
+
+  .alignDescription {
+    width: 70%;
+    font-weight: 600;
+    color: black;
+    font-size: 1rem;
+    position: relative;
+    left: -45%;
+    top: 50%;
+    width: 250px;
+    height: 8vh;
+  }
+
+  .alignImage {
+    position: relative;
+    left: -32%;
+    top: 50%;
+    width: 90%;
+    height: 6vh;
+    font-weight: 600;
+    color: black;
+    font-size: 1rem;
+  }
+
+  .previousBtn {
+    /* border: 1px solid red; */
+    background-color: #7eff73;
+    color: white;
+    border: none;
+    width: 80%;
+    height: 40px;
+    border-radius: 25px;
+    position: absolute;
+    left: 20px;
+    font-size: large;
+  }
+
+  .nextBtn {
+    background-color: #73abff;
+    color: white;
+    border: none;
+    width: 80%;
+    height: 40px;
+    border-radius: 25px;
+    position: relative;
+    left: 20px;
+    font-size: large;
+  }
+
+  .postBtn {
+    background-color: #ff7373;
+    color: white;
+    border: none;
+    width: 80%;
+    height: 40px;
+    border-radius: 25px;
+    position: relative;
+    margin-left: 20px;
+    font-size: large;
+  }
+
+  .btnContainer {
+    /* border: 1px solid red; */
+    width: 50%;
+    height: 20%;
+    position: absolute;
+    top: 70%;
+    margin: 0 auto;
+    margin-left: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
