@@ -18,8 +18,8 @@ const IndividualStory = () => {
 
   const navigate = useNavigate();
 
-  const backendUrl = `https://swip-troy-backend.vercel.app/api/v1/stories/${storyId}`;
-  const backendUrlEdit = `https://swip-troy-backend.vercel.app/api/v1/stories/editstory/${storyId}`;
+  const backendUrl = `https://wild-blue-crayfish-tutu.cyclic.app/api/v1/stories/${storyId}`;
+  const backendUrlEdit = `https://wild-blue-crayfish-tutu.cyclic.app/api/v1/stories/editstory/${storyId}`;
 
   useEffect(() => {
     const fetchData = async () => {

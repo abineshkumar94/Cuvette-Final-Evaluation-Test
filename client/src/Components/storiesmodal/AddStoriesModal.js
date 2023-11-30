@@ -20,7 +20,7 @@ const AddStories = ({ setOpenAddStoriesModal, userId, stories }) => {
 
   useEffect(() => {}, [stories]);
 
-  const backendUrl = `https://swip-troy-backend.vercel.app/api/v1/stories/createstories`;
+  const backendUrl = `https://wild-blue-crayfish-tutu.cyclic.app/api/v1/stories/createstories`;
   // const localHost = `http://localhost:4000/api/v1/stories/createstories`;
 
   const handleSlideChange = (index, field, value) => {
@@ -224,11 +224,11 @@ const AddStories = ({ setOpenAddStoriesModal, userId, stories }) => {
               required
             >
               <option>Please select one option</option>
-              <option value="food ">food </option>
-              <option value="health">health</option>
-              <option value="travel">travel</option>
-              <option value="movies">movies</option>
-              <option value="education">education</option>
+              <option value="Medical ">food </option>
+              <option value="Fruits">health</option>
+              <option value="World">travel</option>
+              <option value="Science">movies</option>
+              <option value="Sports">education</option>
             </select>
           </div>
         </form>

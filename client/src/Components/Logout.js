@@ -8,7 +8,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 const Logout = ({ parent, userDetails }) => {
   const navigate = useNavigate();
-  const backendurl = `https://swip-troy-backend.vercel.app/api/v1/logout`;
+  const backendurl = `https://wild-blue-crayfish-tutu.cyclic.app/api/v1/logout`;
 
   const handleLogout = () => {
     const loggedOut = axios.get(backendurl);

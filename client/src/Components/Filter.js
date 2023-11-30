@@ -15,7 +15,7 @@ const Filter = ({ category }) => {
   );
  
 
-  const backendUrl = `https://swip-troy-backend.vercel.app/api/v1/stories/filteredStories`;
+  const backendUrl = `https://wild-blue-crayfish-tutu.cyclic.app/api/v1/stories/filteredStories`;
 
   useEffect(() => {
     const fetchData = async () => {

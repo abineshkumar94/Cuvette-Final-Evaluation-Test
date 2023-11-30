@@ -43,7 +43,7 @@ const Home = () => {
     simage: false,
     game: false,
   });
-  const backendUrl = `https://swip-troy-backend.vercel.app/api/v1/stories/getallstories`;
+  const backendUrl = `https://wild-blue-crayfish-tutu.cyclic.app/api/v1/stories/getallstories`;
 
   useEffect(() => {
     const fetchData = async () => {

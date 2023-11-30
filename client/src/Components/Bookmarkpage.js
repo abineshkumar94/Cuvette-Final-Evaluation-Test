@@ -23,7 +23,7 @@ const Bookmarkpage = () => {
   const { id } = useParams();
   const userId = id;
 
-  const backendUrl = `https://swip-troy-backend.vercel.app/api/v1/stories/bookmarkedStories/${userId}`;
+  const backendUrl = `https://wild-blue-crayfish-tutu.cyclic.app/api/v1/stories/bookmarkedStories/${userId}`;
 
   useEffect(() => {
     const fetch = async () => {

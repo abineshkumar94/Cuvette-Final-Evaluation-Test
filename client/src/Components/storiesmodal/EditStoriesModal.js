@@ -13,9 +13,9 @@ const EditStories = ({
   const [numberOfSlides, setNumberOfSlides] = useState([]);
   const [updateSlide, setUpdateSlides] = useState();
 
-  const backendUrlIndividualStory = `https://swip-troy-backend.vercel.app/api/v1/stories/${storyId}`;
+  const backendUrlIndividualStory = `https://wild-blue-crayfish-tutu.cyclic.app/api/v1/stories/${storyId}`;
 
-  const backendUrlEdit = `https://swip-troy-backend.vercel.app/api/v1/stories/editstory/${storyId}`;
+  const backendUrlEdit = `https://wild-blue-crayfish-tutu.cyclic.app/api/v1/stories/editstory/${storyId}`;
 
   useEffect(() => {
     const fetch = async () => {

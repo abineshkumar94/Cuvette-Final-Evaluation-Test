@@ -18,13 +18,13 @@ const Sports = ({
     initialVisibleImages
   );
 
-  const backendUrl = `https://swip-troy-backend.vercel.app/api/v1/stories/filteredStories`;
+  const backendUrl = `https://wild-blue-crayfish-tutu.cyclic.app/api/v1/stories/filteredStories`;
 
   useEffect(() => {
     const fetchData = async () => {
       try {
         const result = await axios.post(backendUrl, {
-          category: "education",
+          category: "Sports",
         });
         if (result.data.success) {
           setStories(result.data.filteredStories);

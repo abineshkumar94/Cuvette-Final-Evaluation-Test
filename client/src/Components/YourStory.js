@@ -17,7 +17,7 @@ const YourStroy = ({ userId, isLoggedIn }) => {
   const [storyId, setStoryId] = useState(null);
   const [statestories, setStateStories] = useState([]);
 
-  const backendUrl = `https://swip-troy-backend.vercel.app/api/v1/stories/userstories/${userId}`;
+  const backendUrl = `https://wild-blue-crayfish-tutu.cyclic.app/api/v1/stories/userstories/${userId}`;
 
   useEffect(() => {
     const fetch = async () => {
