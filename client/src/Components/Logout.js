@@ -37,7 +37,16 @@ const Logout = ({ parent, userDetails }) => {
 
   return (
     <div className={styles.logoutContainer}>
-    
+      <p
+        style={{
+          display: "relative",
+          margin: "0 auto",
+          marginLeft: "40%",
+          color: "lightsalmon",
+        }}
+      >
+        Hello !!
+      </p>
       <button className={styles.logoutBtn} onClick={handleLogout}>
         Logout
       </button>

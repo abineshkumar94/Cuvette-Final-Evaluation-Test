@@ -82,8 +82,9 @@
 
 .bookmarkProfilePic {
   position: absolute;
-  left: 93%;
+  left: 92%;
   top: 10px;
+  border-radius: 30px;
 }
 
 .hamBtn {

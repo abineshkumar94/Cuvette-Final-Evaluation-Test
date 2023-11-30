@@ -53,6 +53,7 @@ exports.logIn = async (req, res, next) => {
     if (!isPasswordCorrect)
       return next(new Error("You are password is wrong", 400));
 
+    console.log(user);
     cookieToken(user, res);
   } catch (error) {
     console.log(error);

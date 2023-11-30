@@ -4,7 +4,7 @@ import axios from "axios";
 import "./home.css";
 import styles from "./bookmarkpage.module.css";
 import Bookmarkicon from "../Image/bookmark-icon.png";
-import Propic from "../Image/propic.svg";
+import Propic from "../Image/download.jpeg";
 import Hamburgericon from "../Image/Ham.svg";
 import all from "../Image/all-img.jpg";
 import mimage from "../Image/Medic-img.jpg";
@@ -72,7 +72,7 @@ const Home = () => {
     console.log(userId);
   }, [userId]);
 
-  const userUrl = `https://swip-troy-backend.vercel.app/api/v1/${userId}`;
+  const userUrl = `https://wild-blue-crayfish-tutu.cyclic.app/api/v1/${userId}`;
 
   useEffect(() => {
     const fetch = async () => {
@@ -177,7 +177,10 @@ const Home = () => {
             <button className={styles.bookmarkBtn} onClick={handleChange}>
               <i class="fa-solid fa-bookmark"></i>Bookmark
             </button>
-            <button onClick={handleModelHandeler} className={styles.addStoryBtn}>
+            <button
+              onClick={handleModelHandeler}
+              className={styles.addStoryBtn}
+            >
               Add story
             </button>
             <img
@@ -227,50 +230,32 @@ const Home = () => {
       </div>
 
       <div className="filter-box">
-        <button
-          className="filter-box-btn"
-          onClick={handleaAllButtonClick}
-        >
+        <button className="filter-box-btn" onClick={handleaAllButtonClick}>
           <img src={all} alt="" className="filter-images" />
           <h3 className="filter-names">All</h3>
         </button>
 
-        <button
-          className="filter-box-btn"
-          onClick={handleMedicalButtonClick}
-        >
+        <button className="filter-box-btn" onClick={handleMedicalButtonClick}>
           <img src={mimage} alt="" className="filter-images" />
           <h3 className="filter-names">Medical</h3>
         </button>
 
-        <button
-          className="filter-box-btn"
-          onClick={handleFruitsButtonClick}
-        >
+        <button className="filter-box-btn" onClick={handleFruitsButtonClick}>
           <img src={fimage} alt="" className="filter-images" />
           <h3 className="filter-names">Fruits</h3>
         </button>
 
-        <button
-          className="filter-box-btn"
-          onClick={handleWorldbuttonclick}
-        >
+        <button className="filter-box-btn" onClick={handleWorldbuttonclick}>
           <img src={wimage} alt="" className="filter-images" />
           <h3 className="filter-names">World</h3>
         </button>
 
-        <button
-          className="filter-box-btn"
-          onClick={handleScienceButtonClick}
-        >
+        <button className="filter-box-btn" onClick={handleScienceButtonClick}>
           <img src={simage} alt="" className="filter-images" />
           <h3 className="filter-names">Science</h3>
         </button>
 
-        <button
-          className="filter-box-btn"
-          onClick={handleSportsButtonClick}
-        >
+        <button className="filter-box-btn" onClick={handleSportsButtonClick}>
           <img src={game} alt="" className="filter-images" />
           <h3 className="filter-names">Sports</h3>
         </button>

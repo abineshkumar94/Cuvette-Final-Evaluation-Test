@@ -45,7 +45,7 @@ const SignIn = ({
 
     try {
       const res = await axios.post(
-        "https://swip-troy-backend.vercel.app/api/v1/login",
+        "https://wild-blue-crayfish-tutu.cyclic.app/api/v1/login",
         {
           username: userName,
           password: password,
@@ -53,6 +53,7 @@ const SignIn = ({
       );
 
       const data = res.data;
+      console.log(data);
       if (data.success) {
         setIsLoggedIn(true);
         setUserId(data.user._id);

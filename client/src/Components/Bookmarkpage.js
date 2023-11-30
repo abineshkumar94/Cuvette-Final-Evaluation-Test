@@ -1,6 +1,6 @@
 import styles from "./bookmarkpage.module.css";
 import Bookmarkicon from "../Image/bookmark-icon.png";
-import Propic from "../Image/propic.svg";
+import Propic from "../Image/download.jpeg";
 import Hamburgericon from "../Image/Ham.svg";
 import AddStories from "./storiesmodal/AddStoriesModal";
 import Logout from "./Logout";
