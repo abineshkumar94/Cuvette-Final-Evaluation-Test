@@ -124,7 +124,6 @@ const SignIn = ({
             Sign In
           </button>
         </form>
-        <p className={styles.signinError}>Please enter valid userName</p>
       </div>
 
       <ToastContainer
