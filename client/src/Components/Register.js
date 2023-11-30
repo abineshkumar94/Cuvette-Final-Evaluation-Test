@@ -12,9 +12,7 @@ import VisibilityOff from "@mui/icons-material/VisibilityOff";
 import TextField from "@mui/material/TextField";
 
 const Register = ({ onClose, setIsLoggedIn, setUserDetails, setUserId }) => {
-
-
-  const backendUrl = `https://swip-troy-backend.vercel.app/api/v1/register`;
+  const backendUrl = `https://wild-blue-crayfish-tutu.cyclic.app/api/v1/register`;
   console.log(backendUrl);
 
   const [userName, setUserName] = useState("");
