@@ -224,11 +224,11 @@ const AddStories = ({ setOpenAddStoriesModal, userId, stories }) => {
               required
             >
               <option>Please select one option</option>
-              <option value="Medical ">food </option>
-              <option value="Fruits">health</option>
-              <option value="World">travel</option>
-              <option value="Science">movies</option>
-              <option value="Sports">education</option>
+              <option value="Medical ">Medical </option>
+              <option value="Fruits">Fruits</option>
+              <option value="World">World</option>
+              <option value="Science">Science</option>
+              <option value="Sports">Sports</option>
             </select>
           </div>
         </form>
@@ -271,3 +271,10 @@ const AddStories = ({ setOpenAddStoriesModal, userId, stories }) => {
 };
 
 export default AddStories;
+
+
+
+
+
+
+

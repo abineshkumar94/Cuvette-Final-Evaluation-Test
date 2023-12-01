@@ -45,7 +45,6 @@ const EditStories = ({
     setUpdateSlides(newSlides);
     console.log(newSlides);
   };
-  // Add axios post request with bookmark and userDetails._id
 
   const AddSlide = ({ setOpenAddStoriesModal }) => {
     console.log(numberOfSlides.length);
@@ -247,11 +246,11 @@ const EditStories = ({
               }}
               required
             >
-              <option value="food ">food </option>
-              <option value="health and fitness">health and fitness</option>
-              <option value="travel">travel</option>
-              <option value="movies">movies</option>
-              <option value="education">education</option>
+              <option value="Medical ">Medical </option>
+              <option value="Fruits">Fruits</option>
+              <option value="World">World</option>
+              <option value="Science">Science</option>
+              <option value="Sports">Sports</option>
             </select>
           </div>
         </form>
@@ -287,7 +286,7 @@ const EditStories = ({
         pauseOnHover
         theme="light"
       />
-      {/* Same as */}
+
       <ToastContainer />
     </div>
   );
